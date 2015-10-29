@@ -3,7 +3,7 @@ package uk.stephenbrown;
 public class Main {
 
     public static void main(String[] args) {
-        int secondsToSleep = Integer.parseInt(args[0]);
+        int secondsToSleep = Integer.parseInt(args[1]);
         System.out.println(String.format("I am sleeping for {0} seconds", secondsToSleep));
         try {
             Thread.sleep(1000*secondsToSleep);
